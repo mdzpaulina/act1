@@ -14,6 +14,11 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 placa1 = cv2.imread("placa_q.jpg")
 placa2 = cv2.imread("placa_2.jpg")
 
+# Manejo de errores al cargar imágenes
+if placa1 is None or placa2 is None:
+    print("Error al cargar las imágenes.")
+    exit()
+
 # Achicar imagen para facilitar lectura
 placa2_reducida = placa2[::3, ::3]
 
