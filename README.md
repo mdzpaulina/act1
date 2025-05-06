@@ -23,6 +23,7 @@ A partir de imágenes de placas vehiculares, el script:
 - README.md
 - placa_q.jpg
 - placa_2.jpg
+- Captura de pantalla 2025-05-05 230257.png
 
 ## Ejecución
 
